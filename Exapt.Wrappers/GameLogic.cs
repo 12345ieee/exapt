@@ -33,4 +33,9 @@ public class GameLogic : NonStaticWrapper<GameLogic>
     {
         _ = Call("#=qrnUck7W$Xr7MBLj7W0QtK28NCH7Qgj1N5e$igVDhSzo=");
     }
+
+    public void CreateWindow(string title, int width, int height, int display)
+    {
+        _ = Call("#=qwkf$ypjdDAxMy$27u$fZSQ==", title, width, height, display);
+    }
 }
